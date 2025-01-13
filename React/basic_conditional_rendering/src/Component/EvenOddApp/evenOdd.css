@@ -1,0 +1,54 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  
+}
+
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 50vw;
+  height: 50vh;
+
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+}
+
+.heading,
+span {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: black;
+}
+.count_even {
+  color: #334155;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.increment {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  border-radius: 10px;
+  background-color: white;
+  color: #1e293b;
+}
+
+.note {
+  color: #334155;
+  font-size: 10px;
+}

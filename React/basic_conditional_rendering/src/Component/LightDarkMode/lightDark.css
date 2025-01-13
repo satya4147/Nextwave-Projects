@@ -1,0 +1,42 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 24px;
+}
+
+.container {
+  border-radius: 12px;
+  text-align: center;
+  padding: 24px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+button {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.darkMode {
+  background-color: black;
+  color: #ffffff;
+}
+
+.lightMode {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid black;
+}
