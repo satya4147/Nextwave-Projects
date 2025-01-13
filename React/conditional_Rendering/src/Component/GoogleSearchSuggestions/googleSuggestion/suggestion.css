@@ -1,0 +1,104 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.google-suggestion-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 125px;
+}
+
+@media screen and (min-width: 768px) {
+  .google-suggestion-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 250px;
+  }
+}
+
+.google-logo {
+  width: 150px;
+  height: 55px;
+}
+
+@media screen and(min-width : 768px) {
+  .google-logo {
+    width: 432px;
+    height: 140px;
+  }
+}
+
+.search-input-suggestion-container {
+  width: 300px;
+  border-radius: 12px;
+  margin-top: 24px;
+  box-shadow: 1px 0px 10px 0px #bfbfbf;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input-suggestion-container {
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 48px;
+  }
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input-container {
+    display: flex;
+    align-items: center;
+    padding: 4px 12px;
+  }
+}
+
+.search-icon {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-icon {
+    width: 24px;
+    height: 12px;
+  }
+}
+
+.search-input {
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+  margin-left: 16px;
+  color: #64748b;
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input {
+    font-size: 20px;
+    margin-left: 8px;
+    height: 40px;
+  }
+}
+
+.suggestion-list {
+  padding: 0px 16px 12px 8px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .suggestion-list {
+    padding: 0px 32px 24px 24px;
+    margin: 0px;
+  }
+}

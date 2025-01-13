@@ -1,0 +1,86 @@
+/* Write your CSS here */
+
+.cashWith-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #150b3e;
+  color: white;
+  height: 100vh;
+}
+
+.cash-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width : 50%;
+}
+
+.cash-name-conatainer,
+.your-blance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  font-size: 45px;
+  width: 100px;
+  height: 100px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.cash-fullname-heading {
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #d4d2db;
+  padding-top: 20px;
+  margin-left: 30px;
+}
+
+.balance,
+.chooseValue {
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #585076;
+  margin-left: -50px;
+}
+.chooseValue{
+  margin-left: 0px;
+}
+.amount {
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #d4d2db;
+  margin-left: 100px;
+}
+
+.withdraw {
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #d4d2db;
+  margin-left: -280px;
+}
+
+.cash-balance-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
