@@ -1,0 +1,79 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+}
+
+.coin-toss-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: #ffffff;
+  width: 60%;
+  height: 85%;
+}
+
+.heading {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  text-align: center;
+  color: #a35200;
+  padding-top: 20px;
+}
+
+.coin-toss-pragrapha {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.toss-result-img {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50px;
+}
+
+.toss-button {
+  color: #a35200;
+  background-color: #e2a139;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 55px;
+  margin-top: 20px;
+}
+
+.count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-count,
+.heads-count,
+.tails-count {
+  color: #475569;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-top: 40px;
+  margin-right: 10px;
+}
