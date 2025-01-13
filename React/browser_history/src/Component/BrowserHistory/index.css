@@ -1,0 +1,38 @@
+.logo-and-title-card {
+  display: flex;
+  align-items: center;
+}
+
+.ul-list {
+  list-style-type: none;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px white;
+  border-width: 1px;
+  width: 90%;
+  padding: 20px;
+}
+
+.search-bar-card {
+  background-color: #3367d6;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  padding: 20px;
+}
+
+.search-input-card {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  height: 100vh;
+}

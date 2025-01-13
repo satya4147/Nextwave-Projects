@@ -1,0 +1,56 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.history-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo-title-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.time-accssed {
+  margin-left: -10px;
+  margin-right: 40px;
+  font-family: 'Roboto';
+}
+.logo-and-title-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-logo {
+  margin-right: 20px;
+  text-align: center;
+  height: 40px;
+}
+
+.item-logo-name {
+  margin-right: 10px;
+  font-family: 'Roboto';
+}
+
+.item-logo-url {
+  margin-right: 10px;
+  font-family: 'Roboto';
+  color: #64748b;
+}
+
+.delete-logo {
+  width: 16px;
+  height: 16px;
+  align-self: center;
+}
+.button {
+  width: 30px;
+  height: 30px;
+}
